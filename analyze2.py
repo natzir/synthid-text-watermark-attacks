@@ -11,11 +11,11 @@ from score import score
 Z_1PCT, Z_KGW = 2.326, 4.0
 SETS = ["en", "es", "long", "low"]
 LABELS = {
-    "nowm": "Sin marca (control)", "wm": "Con marca, sin tocar", "wm_unicode_cleaner": "Con marca + limpiador Unicode",
-    "wm_word_delete30": "Borrar 30 % de palabras", "paraphrase": "Paráfrasis con otro modelo",
-    "rt_es": "Traducción ida-vuelta por español", "rt_en": "Traducción ida-vuelta por inglés",
-    "rt_zh": "Traducción ida-vuelta por chino", "sira": "SIRA (máscara 70 % + relleno)",
-    "paraphrase_ch": "Paráfrasis párrafo a párrafo", "sira_ch": "SIRA párrafo a párrafo",
+    "nowm": "No watermark (control)", "wm": "Watermarked, untouched", "wm_unicode_cleaner": "Watermarked + Unicode cleaner",
+    "wm_word_delete30": "Delete 30 % of words", "paraphrase": "Paraphrase with another model",
+    "rt_es": "Round-trip translation via Spanish", "rt_en": "Round-trip translation via English",
+    "rt_zh": "Round-trip translation via Chinese", "sira": "SIRA (70 % mask + fill-in)",
+    "paraphrase_ch": "Paraphrase paragraph by paragraph", "sira_ch": "SIRA paragraph by paragraph",
 }
 ORDER = ["nowm", "wm", "wm_unicode_cleaner", "wm_word_delete30", "rt_es", "rt_en", "rt_zh", "paraphrase", "sira", "paraphrase_ch", "sira_ch"]
 
@@ -93,7 +93,7 @@ for S in SETS:
     keys = [f"{S}:{v}" for v in ORDER if f"{S}:{v}" in results]
     if not keys: continue
     lines.append(f"\n### Set `{S}`\n")
-    lines.append("| Variante | n | tokens | media g | z mediana | detectado (z≥2,33) | detectado (z≥4) | similitud | 5-gramas que sobreviven |")
+    lines.append("| Variant | n | tokens | mean g | median z | detected (z≥2.33, 1 % FPR) | detected (z≥4) | similarity | surviving 5-grams |")
     lines.append("|---|---:|---:|---:|---:|---:|---:|---:|---:|")
     for k in keys:
         r = results[k]
