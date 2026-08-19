@@ -1,6 +1,6 @@
 # SynthID-Text watermark attacks: replicating Claude's text watermark and breaking it on a laptop
 
-Code and data behind the article **"La marca de agua de Claude: cómo funciona, por qué las skills que la borran no borran nada y qué sí la rompe"** (natzir.com, in Spanish).
+Code and data behind the article **[Qué es, cómo funciona y cómo romper el watermark SynthID de Claude y Google](https://natzir.com/posicionamiento-buscadores/que-es-como-funciona-como-romper-synthid-watermark/)** (natzir.com, in Spanish).
 
 On August 14, 2026 Anthropic announced that Claude will carry a statistical text watermark based on [SynthID-Text](https://www.nature.com/articles/s41586-024-08025-4) (Google DeepMind, *Nature* 2024). Nobody outside Anthropic can measure that watermark (there is no key and no detection API yet), so this repo does what the research literature does: **replicate the mechanism with our own key and attack it**. The watermark here is the real SynthID-Text algorithm (the official implementation, as integrated in Hugging Face `transformers`) with **our** key; it is not Claude's or Google's watermark.
 
@@ -91,4 +91,4 @@ The "Claude" stand-in is a quantized 7B, not a frontier model (which would have 
 
 ## License
 
-MIT. Author: Natzir ([natzir.com](https://natzir.com)).
+MIT. Author: Natzir ([natzir.com](https://natzir.com) · [LinkedIn](https://www.linkedin.com/in/natzir/) · [X/Twitter](https://x.com/natzir9)).
