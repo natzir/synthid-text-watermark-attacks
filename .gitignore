@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+*.flag
+.DS_Store
+# smoke-test outputs (WM_DATA_DIR / WM_RESULTS_DIR point elsewhere)
+/tmp/

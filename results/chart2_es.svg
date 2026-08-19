@@ -1,0 +1,38 @@
+<svg viewBox="0 0 720 320" width="100%" role="img" aria-label="Español, ~300 tokens (n=40)" xmlns="http://www.w3.org/2000/svg" style="font-family:inherit;max-width:100%">
+<line x1="250.0" y1="28" x2="250.0" y2="294" stroke="var(--grid)" stroke-width="1"/>
+<text x="250.0" y="308" text-anchor="middle" font-size="11" fill="var(--text-2)">0</text>
+<line x1="374.2" y1="28" x2="374.2" y2="294" stroke="var(--grid)" stroke-width="1"/>
+<text x="374.2" y="308" text-anchor="middle" font-size="11" fill="var(--text-2)">5</text>
+<line x1="498.3" y1="28" x2="498.3" y2="294" stroke="var(--grid)" stroke-width="1"/>
+<text x="498.3" y="308" text-anchor="middle" font-size="11" fill="var(--text-2)">10</text>
+<line x1="622.5" y1="28" x2="622.5" y2="294" stroke="var(--grid)" stroke-width="1"/>
+<text x="622.5" y="308" text-anchor="middle" font-size="11" fill="var(--text-2)">15</text>
+<line x1="307.8" y1="24" x2="307.8" y2="294" stroke="var(--text-2)" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="311.8" y="20" font-size="11" fill="var(--text-2)">z=2,33 (1 % FP)</text>
+<line x1="349.3" y1="24" x2="349.3" y2="294" stroke="var(--text-2)" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="353.3" y="20" font-size="11" fill="var(--text-2)">z=4</text>
+<text x="240" y="54" text-anchor="end" font-size="12.5" fill="var(--text-1)">Sin marca (control)</text>
+<text x="258.0" y="54" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">-0.2 · 5 % det.</text>
+<text x="240" y="86" text-anchor="end" font-size="12.5" fill="var(--text-1)">Con marca, sin tocar</text>
+<rect x="250.0" y="73" width="363.6" height="18" fill="var(--bar)"/>
+<text x="621.6" y="86" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">14.6 · 100 % det.</text>
+<text x="240" y="118" text-anchor="end" font-size="12.5" fill="var(--text-1)">+ limpiador Unicode (&quot;skill&quot;)</text>
+<rect x="250.0" y="105" width="363.6" height="18" fill="var(--bar)"/>
+<text x="621.6" y="118" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">14.6 · 100 % det.</text>
+<text x="240" y="150" text-anchor="end" font-size="12.5" fill="var(--text-1)">Borrar 30 % de palabras</text>
+<rect x="250.0" y="137" width="92.9" height="18" fill="var(--bar)"/>
+<text x="350.9" y="150" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">3.7 · 92 % det.</text>
+<text x="240" y="182" text-anchor="end" font-size="12.5" fill="var(--text-1)">Ida-vuelta por inglés</text>
+<rect x="250.0" y="169" width="44.4" height="18" fill="var(--bar)"/>
+<text x="302.4" y="182" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">1.8 · 28 % det.</text>
+<text x="240" y="214" text-anchor="end" font-size="12.5" fill="var(--text-1)">Ida-vuelta por chino</text>
+<rect x="250.0" y="201" width="14.1" height="18" fill="var(--bar)"/>
+<text x="272.1" y="214" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">0.6 · 8 % det.</text>
+<text x="240" y="246" text-anchor="end" font-size="12.5" fill="var(--text-1)">Paráfrasis con otro modelo</text>
+<rect x="250.0" y="233" width="27.0" height="18" fill="var(--bar)"/>
+<text x="285.0" y="246" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">1.1 · 25 % det.</text>
+<text x="240" y="278" text-anchor="end" font-size="12.5" fill="var(--text-1)">SIRA (máscara 70 % + relleno)</text>
+<rect x="250.0" y="265" width="27.2" height="18" fill="var(--bar)"/>
+<text x="285.2" y="278" font-size="12" fill="var(--text-1)" font-variant-numeric="tabular-nums">1.1 · 22 % det.</text>
+<line x1="250" y1="28" x2="250" y2="294" stroke="var(--text-2)" stroke-width="1"/>
+</svg>
